@@ -1,0 +1,14 @@
+.h1 {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    color: black;
+    font-family: fantasy;
+    background-color: #FFD6F8;
+    padding-bottom: .4rem;
+}
+
+.div {
+    overflow-x: hidden;
+}

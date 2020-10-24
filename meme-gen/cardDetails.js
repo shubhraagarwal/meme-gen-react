@@ -1,0 +1,117 @@
+const cardDetails = [{
+        id: 1,
+        name: 'Avengers',
+        imgURL: require('./images/avengers.jpg'),
+        tagline: 'Hulk giving Taco',
+    },
+    {
+        id: 2,
+        name: 'Bugs Bunny',
+        imgURL: require("./images/bugs bunny.jpeg"),
+        tagline: 'Communist Bugs Bunny',
+    },
+    {
+        id: 3,
+        name: 'Bunny',
+        imgURL: require('./images/bunny.jpg'),
+        tagline: 'Headphones not on ears',
+    },
+    {
+        id: 4,
+        name: 'Sleeping Cat',
+        imgURL: require('./images/cat sleeping.jpg'),
+        tagline: 'Ignoring Everyone',
+    },
+    {
+        id: 5,
+        name: 'Change my mind',
+        imgURL: require('./images/change my mind 2.jpg'),
+        tagline: 'Dead memes still funny',
+    },
+    {
+        id: 6,
+        name: 'Change my mind',
+        imgURL: require('./images/change my mind.jpg'),
+        tagline: 'Impossible to imagine new color',
+    },
+    {
+        id: 7,
+        name: 'Confused Tom',
+        imgURL: require('./images/confused tom 1.jpg'),
+        tagline: 'Fortnite Dance',
+    },
+    {
+        id: 8,
+        name: 'Cop shoots black man',
+        imgURL: require('./images/cop shoots.jpg'),
+        tagline: 'Cop Shooting Cockroach',
+    },
+    {
+        id: 9,
+        name: 'I am once again asking',
+        imgURL: require('./images/crossover.jpg'),
+        tagline: 'Stop looking at the girl',
+    },
+    {
+        id: 10,
+        name: 'Change my mind',
+        imgURL: require('./images/deadwood.jpg'),
+        tagline: 'Pencil are deadwood',
+    },
+    {
+        id: 11,
+        name: 'Scary movie thoughts',
+        imgURL: require('./images/dinosaur.jpeg'),
+        tagline: 'Scary movie isnt scary',
+    },
+    {
+        id: 12,
+        name: 'mem man',
+        imgURL: require('./images/mem man.jpg'),
+        tagline: 'Mem man will live forever',
+    },
+    {
+        id: 13,
+        name: 'Drake Yes/No',
+        imgURL: require('./images/drake2020.jpg'),
+        tagline: 'Apcalypse 2020',
+    },
+    {
+        id: 14,
+        name: 'Tree on fire',
+        imgURL: require('./images/fire.jpg'),
+        tagline: 'Diet problems',
+    },
+    {
+        id: 15,
+        name: 'Have a nice day',
+        imgURL: require('./images/have a nice day.jpg'),
+        tagline: 'Introvert AF!',
+    },
+    {
+        id: 16,
+        name: 'Hitler office crossover',
+        imgURL: require('./images/hitler office.jpg'),
+        tagline: 'How the turntables',
+    },
+    {
+        id: 17,
+        name: 'Laughing Leo',
+        imgURL: require('./images/laughing leo.jpeg'),
+        tagline: 'Laughing leo',
+    },
+    {
+        id: 18,
+        name: 'Watch what you want',
+        imgURL: require('./images/office jim.jpeg'),
+        tagline: 'Do not be embarassed',
+    },
+    {
+        id: 19,
+        name: 'panik kalm panik',
+        imgURL: require('./images/panik kalm panik.jpg'),
+        tagline: 'Arguement with mom',
+    },
+
+]
+export default cardDetails;

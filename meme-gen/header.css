@@ -1,0 +1,128 @@
+.header {
+    background-color: #403440;
+    min-height: 92vh;
+    width: 98.5vw;
+    margin-top: 8vh;
+    overflow: auto;
+}
+
+.h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.4rem;
+    color: aliceblue;
+}
+
+.about {
+    text-align: left;
+    min-width: 40vw;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    max-width: 40vw;
+    color: #FFF7F0;
+    float: left;
+}
+
+.displayImg {
+    float: right;
+    padding-right: 2rem;
+    padding-top: 0.7rem;
+}
+
+
+/* Button animation starts */
+
+.div-animate {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    float: left;
+    max-width: 300px;
+}
+
+.button-animate {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 60px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: transparent;
+    overflow: hidden;
+    transition: .8s;
+}
+
+.button-animate:nth-child(1) {
+    color: #1ea0eb;
+    border: 1px solid;
+}
+
+.button-animate:nth-child(2) {
+    color: #ee4a22;
+    border: 1px solid;
+}
+
+.button-animate:nth-child(1):hover {
+    background: #1ea0eb;
+    color: #222121;
+}
+
+.button-animate:nth-child(2):hover {
+    background: #ee4a22;
+    color: #222121;
+}
+
+.button-animate span {
+    display: flex;
+    width: 100px;
+    height: 10px;
+    background: #e5e5e5;
+    fliter: blur(8px);
+    transform: rotate(110deg) translateX(-80px) translateY(100px);
+    transition: .4s;
+}
+
+.button-animate:hover span {
+    transform: rotate(110deg) translateX(-80px) translateY(-240px);
+}
+
+
+/*Button animation ends */
+
+
+/* Media Queries */
+
+@media screen and (max-width:480px) {
+    .about {
+        text-align: none;
+        display: block;
+        min-width: 80vw;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        max-width: auto;
+        color: #FFF7F0;
+        float: inherit;
+    }
+    .button-animate {
+        margin: 0;
+        width: 80vw;
+    }
+    .div-animate {
+        padding-top: 2rem;
+    }
+    .displayImg {
+        float: none;
+        padding-right: 2rem;
+        margin-left: 2rem;
+        padding-top: 3rem;
+        margin-top: 2rem;
+        max-width: 70vw;
+    }
+}
