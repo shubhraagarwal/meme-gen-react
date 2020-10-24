@@ -1,0 +1,43 @@
+.container3 {
+    /* background-color: #403440; */
+    padding-bottom: 3rem;
+}
+
+.img {
+    max-width: 40vw;
+    max-height: 40vh;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    box-shadow: 0px 0px 10px black;
+}
+
+.generate {
+    padding-right: 2rem;
+}
+
+input {
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    input {
+        max-width: 70vw;
+        margin-top: 2rem;
+    }
+    .button-animate1 {
+        margin: 0;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 80vw;
+        margin-bottom: 2rem;
+    }
+    .div-animate1 {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .container3 {
+        max-width: 99vw;
+    }
+}
